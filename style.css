@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(237,239,238);
+    font-family: sans-serif;
+    margin: 60px;
+    padding: 0;
+}
+
+.brand-name {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.brand-name p {
+    padding-left: 15px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 800;
+    color: rgb(73,94,87);
+}
+
+.brand-name img {
+    height: 200px;  
+}
+
+.navbar {
+    margin-top: 75px;
+    
+}
+
+ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: hidden;
+    background-color: rgb(51,51,51);
+    border-radius: 50px;
+}
+
+ul li {
+    list-style: none;
+    padding: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px;
+    font-size: 22px;
+}
+
+-----Section-------
+
+.ann {
+    position: absolute;
+}
+
+
+.announcement {
+    position: relative;
+    margin-top: 50px;
+}
+
+.announcement img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 40px;
+    opacity: 80%;
+}
+
+.announcement h1 {
+    position: relative;
+    padding: 20px;
+}
+
+.announcement p {
+    position: relative;
+    padding-left: 20px;
+}
+
+.grid-infos {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+}
+
+.menu {
+    background-color: #f4e5d6;
+    border-radius: 12px;
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+}
+
+.table {
+    border-radius: 12px;
+    background-color: #f4e5d6;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    line-height: 22px;
+}
+
+.hours {
+    border-radius: 12px;
+    background-color: #f4e5d6;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    line-height: 22px;
+}
+
+
+.table img {
+    width: 300px;
+    
+}
+
+.menu img {
+    width: 300px;
+}
+
+.hours img {
+    width: 300px;
+}
+
+
+p {
+    padding-left: 20px;
+}
+
+
+.footer img {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 15px;
+    padding-top: 200px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+
